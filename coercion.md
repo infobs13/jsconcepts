@@ -48,7 +48,7 @@ JavaScript Example:
 JavaScript, being dynamically typed, does not require explicit type declaration. Instead, the type is determined at runtime based on the value assigned to the variable.
 
 javascript
-```
+```javascript
 function addNumbers(a, b) {
     if (typeof a !== 'number' || typeof b !== 'number') {
         throw new Error('Both arguments must be numbers');
@@ -70,7 +70,7 @@ However, we have explicit type checking in the addNumbers function. If the argum
 This approach ensures that incorrect types are caught and handled properly during runtime, preventing unexpected behavior.
 
 Dynamic Typing in JavaScript:
-```
+```javascript
 let array = [1, "a"];
 let x; 
 for (let i = 0; i < array.length; ++i) {
