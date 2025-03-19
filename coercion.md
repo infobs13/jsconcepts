@@ -1,9 +1,9 @@
 # Understanding Data Types and Their Importance in Programming
 
-## Data:
+## Data
 **Data** refers to transmittable and storable information on which computer operations are performed. It can take various forms, such as numbers, strings, arrays, or even more complex structures like objects. 
 
-## Data Types:
+## Data Types
 In programming, **Data Types** are used to classify data, which helps define how the data can be used, manipulated, and processed in a program. While the CPU deals with binary instructions and opcodes at the lowest level, **why do we classify data into types**? Why is it useful?
 
 ### Who Benefits from Type Classification?
@@ -39,6 +39,7 @@ int main() {
 
     return 0;
 }
+```
 In the code above:
 
 The function add_numbers expects two integers as arguments. If you try to pass an incompatible type, like a string ("hello"), the compiler will prevent the program from compiling and will raise a type error.
@@ -47,8 +48,7 @@ JavaScript Example:
 JavaScript, being dynamically typed, does not require explicit type declaration. Instead, the type is determined at runtime based on the value assigned to the variable.
 
 javascript
-Copy
-Edit
+```
 function addNumbers(a, b) {
     if (typeof a !== 'number' || typeof b !== 'number') {
         throw new Error('Both arguments must be numbers');
@@ -62,6 +62,7 @@ try {
 } catch (error) {
     console.error(error.message); // Catch the error and print it
 }
+```
 In the code above:
 
 JavaScript will not throw an error at compile time because the type of the variables is determined dynamically during runtime.
@@ -69,18 +70,17 @@ However, we have explicit type checking in the addNumbers function. If the argum
 This approach ensures that incorrect types are caught and handled properly during runtime, preventing unexpected behavior.
 
 Dynamic Typing in JavaScript:
-javascript
-Copy
-Edit
+```
 let array = [1, "a"];
 let x; 
 for (let i = 0; i < array.length; ++i) {
     x = array[i];
     console.log(typeof x);
 }
-// Output:
+//output:
 // number
 // string
+```
 In this example:
 
 JavaScript automatically determines the type of x based on the value it holds during runtime.
