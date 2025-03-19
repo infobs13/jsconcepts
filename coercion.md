@@ -44,6 +44,7 @@ In the code above:
 
 The function add_numbers expects two integers as arguments. If you try to pass an incompatible type, like a string ("hello"), the compiler will prevent the program from compiling and will raise a type error.
 This ensures that type mismatches are caught early, preventing potential runtime errors.
+
 JavaScript Example:
 JavaScript, being dynamically typed, does not require explicit type declaration. Instead, the type is determined at runtime based on the value assigned to the variable.
 
@@ -90,5 +91,19 @@ In C++, type checking is done at compile time, preventing type errors before the
 In JavaScript, type checking is done at runtime. Since JavaScript is dynamically typed, the types of variables are determined during execution, and we can use runtime checks to handle errors.
 Thus, type checking and error prevention are crucial mechanisms that help ensure programs run as expected and prevent unexpected behaviors or crashes caused by incompatible data types.
 
+what do i mean by runtime check ? 
+```javascript
+const integerMultiplication = (a,b) => {
 
-
+    if(typeof a!=='number' || typeof b !== 'number'){
+        console.error("Both arguments must be numbers);
+    }
+    else{
+        return a*b ; 
+    }
+}
+// Test cases
+console.log(multiply(5, 3));      // Works fine, returns 15
+console.log(multiply(5, 'hello')); // Error: Both arguments must be numbers
+console.log(multiply('a', 3));    // Error: Both arguments must be numbers
+```
