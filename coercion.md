@@ -93,17 +93,17 @@ Thus, type checking and error prevention are crucial mechanisms that help ensure
 
 what do i mean by runtime check ? 
 ```javascript
-const integerMultiplication = (a,b) => {
-
-    if(typeof a!=='number' || typeof b !== 'number'){
-        console.error("Both arguments must be numbers);
-    }
-    else{
-        return a*b ; 
+   const integerMultiplication = (a, b) => {
+    if (typeof a !== 'number' || typeof b !== 'number') {
+        console.error("Both arguments must be numbers");
+    } else {
+        return a * b; 
     }
 }
+
 // Test cases
-console.log(multiply(5, 3));      // Works fine, returns 15
-console.log(multiply(5, 'hello')); // Error: Both arguments must be numbers
-console.log(multiply('a', 3));    // Error: Both arguments must be numbers
+console.log(integerMultiplication(5, 3));      // Works fine, returns 15
+console.log(integerMultiplication(5, 'hello')); // Error: Both arguments must be numbers
+console.log(integerMultiplication('a', 3));    // Error: Both arguments must be numbers
+
 ```
