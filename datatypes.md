@@ -4,7 +4,9 @@
 **Data** refers to transmittable and storable information on which computer operations are performed. It can take various forms, such as numbers, strings, arrays, or even more complex structures like objects. 
 
 ## Data Types
-In programming, **Data Types** are used to classify data, which helps define how the data can be used, manipulated, and processed in a program. While the CPU deals with binary instructions and opcodes at the lowest level, **why do we classify data into types**? Why is it useful?
+In programming, **Data Types** are used to classify / group data, which helps define how the data can be used, manipulated, and processed in a program.
+
+ While the CPU deals with binary instructions and opcodes at the lowest level, **why do we classify data into types**? Why is it useful?
 
 ### Who Benefits from Type Classification?
 
