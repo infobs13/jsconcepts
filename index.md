@@ -1,4 +1,4 @@
-## JS
+
 
 [data datatype datastructures](./datatypestructures.md)<br>
 [data types](./datatypes.md)<br>
