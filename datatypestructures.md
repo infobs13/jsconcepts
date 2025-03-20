@@ -1,3 +1,8 @@
+---
+layout: default
+title: Data datatypes datastructures
+---
+
 ## Data  
 **Data** refers to information that can be stored, transmitted, and processed by computers. It comes in various forms, such as numbers, strings, arrays, or complex structures like objects.  
 

@@ -1,3 +1,7 @@
+---
+layout: default
+title: Index
+---
 
 
 [data datatype datastructures](./datatypestructures.md)<br>

@@ -1,11 +1,3 @@
 theme: jekyll-theme-minimal
-show_nav: true
-nav_links:
-  - title: Home
-    url: index.md
-  - title: Data Structures
-    url: datatypestructures.md
-  - title: Data Types
-    url: datatypes.md
-  - title: Type Coercion
-    url: coercion.md
+markdown: kramdown
+

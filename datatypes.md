@@ -1,3 +1,8 @@
+---
+layout: default
+title: DATATYPES
+---
+
 # Understanding Data Types and Their Importance in Programming
 
 ## Data
