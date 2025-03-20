@@ -1,11 +1,13 @@
-/* Use a highly readable font */
 body {
     font-family: 'Inter', 'Georgia', 'Merriweather', 'IBM Plex Sans', sans-serif;
     font-size: 18px;
     line-height: 1.6;
-    max-width: 800px;
-    margin: auto;
+    width: 100vw; /* Full width */
+    min-height: 100vh; /* Full height */
+    margin: 0;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Light Mode */
@@ -25,11 +27,10 @@ body {
     }
 }
 
-/* Improve code block readability */
-pre, code {
-    font-family: 'Fira Code', monospace;
-    background: #282c34;
-    color: #abb2bf;
-    padding: 5px;
-    border-radius: 5px;
+/* Ensure content takes full width */
+.container {
+    width: 100%;
+    max-width: 1200px; /* Adjust max width if needed */
+    margin: auto;
+    padding: 20px;
 }
